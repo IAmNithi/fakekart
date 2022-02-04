@@ -1,0 +1,7 @@
+{
+  "name": "fakekart",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
