@@ -1,0 +1,63 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>
+      <img alt="logo" height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Android_O_Preview_Logo.png/1024px-Android_O_Preview_Logo.png" />
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <img alt="logo" height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Android_O_Preview_Logo.png/1024px-Android_O_Preview_Logo.png" />
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide style="background-image: url(https://static.magicpin.com/storage/blog/images/myntra-sale-cover.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    </ion-slide>
+    <ion-slide style="background-image: url(https://myntrascmuistatic.myntassets.com/partner-assets/unity/partners/img/partners_landing2.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    </ion-slide>
+    <ion-slide style="background-image: url(https://in.apparelresources.com/wp-content/uploads/sites/3/2020/07/Myntra-Fashion-brands.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    </ion-slide>
+  </ion-slides>
+
+
+  <ion-card>
+    <img src="https://media.istockphoto.com/photos/mens-clothing-and-personal-accessories-picture-id822609802?k=20&m=822609802&s=612x612&w=0&h=blZjDa_8VXprFLvD9uc-qtIZEkpigpj7RxfDu1ffVnk=" />
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>Mens Wear</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+    <ion-item>
+      <ion-button [routerLink]="['/pproduct-list', 'mens']" routerLinkActive="active">
+        View
+      </ion-button>
+    </ion-item>
+  </ion-card>
+
+  <ion-card>
+    <img src="https://buyyourproduct.com/wp-content/uploads/Womens-Clothing-1.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>Womens Wear</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+    <ion-item>
+      <ion-button [routerLink]="['/pproduct-list', 'womens']" routerLinkActive="active">
+        view
+      </ion-button>
+    </ion-item>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{products.Name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src={{products.img}} />
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>{{products.Name}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{products.details}}
+    </ion-card-content>
+    <ion-item>
+      <ion-button [routerLink]="['/home']">
+        Home
+      </ion-button>
+    </ion-item>
+  </ion-card>
+</ion-content>

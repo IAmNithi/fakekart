@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Men Blue 512",
+        "details": "Veniam fugiat eu reprehenderit tempor eiusmod ut.",
+        "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1584478009-33e16142_b270.jpg",
+        "src": "levis-men-blue-512"
+    },
+    {
+        "Name": "Men 65504",
+        "details": "Veniam fugiat eu reprehenderit tempor eiusmod ut.",
+        "img": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13494614/2021/6/24/affbc736-1fd4-4f70-8410-228badf305571624531938733-Levis-Men-Navy-Blue-65504-Skinny-Fit-Stretchable-Jeans-35816-1.jpg",
+        "src": "men-65504"
+    },
+    {
+        "Name": "Printed Round Neck",
+        "details": "Veniam fugiat eu reprehenderit tempor eiusmod ut.",
+        "img": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14851086/2021/12/24/c908e824-ee06-4f18-9256-48551060a2851640339955285-Levis-Men-Olive-Green-Typography-Printed-Round-Neck-Pure-Cot-1.jpg",
+        "src": "Printed-Round-Neck"
+    },
+    {
+        "Name": "Levis Men Shirts",
+        "details": "Veniam fugiat eu reprehenderit tempor eiusmod ut.",
+        "img": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14851956/2021/10/28/da9a1161-fb47-40a4-b5a1-1e48013ca65c1635400884122-Levis-Men-Shirts-3151635400883667-1.jpg",
+        "src": "Levis-Men-Shirts"
+    },
+    {
+        "Name": "Levis Men Tshirts",
+        "details": "Veniam fugiat eu reprehenderit tempor eiusmod ut.",
+        "img": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14851110/2021/9/18/62918c4c-b5b8-4ead-8e55-d8f7955db0211631958545261-Levis-Men-Tshirts-4381631958544544-1.jpg",
+        "src": "Levis-Men-Tshirts"
+    }
+]

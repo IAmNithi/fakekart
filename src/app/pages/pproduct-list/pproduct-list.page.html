@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{pageType}} product</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="data.length !== 0">
+  <ion-card *ngFor="let item of data">
+    <img src={{item.img}} />
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>{{item.Name}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{item.details}}
+    </ion-card-content>
+    <ion-item>
+      <ion-button (click)="fetchProduct(item)">
+        View Product
+      </ion-button>
+    </ion-item>
+  </ion-card>
+</div>
+</ion-content>

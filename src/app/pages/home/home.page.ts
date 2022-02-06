@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  slideOpts = {
+    initialSlide: 1,
+    speed: 400
+  };
   constructor() {}
 
 }
